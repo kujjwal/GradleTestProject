@@ -1,2 +1,8 @@
 language: java
 sudo: enabled
+
+install:
+  - ./gradlew -version
+
+script:
+  - pip install pynetworktables
