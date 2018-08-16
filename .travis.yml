@@ -5,5 +5,5 @@ install:
   - ./gradlew -version
 
 script:
-  - pip install --upgrade pip
-  - pip install pynetworktables
+  - sudo pip install --upgrade pip
+  - sudo pip install pynetworktables
