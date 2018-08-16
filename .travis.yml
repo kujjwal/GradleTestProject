@@ -1,8 +1,9 @@
 language: java
-sudo: enabled
+sudo: required
 
 install:
   - ./gradlew -version
 
 script:
+  - pip install --upgrade pip
   - pip install pynetworktables
